@@ -1,0 +1,53 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/home/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : "钉钉书屋"
+			}
+		},
+		{
+			"path" : "pages/NewBooksPage/NewBooksPage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "书库"
+			}
+		},
+		{
+			"path" : "pages/PromotionsPage/PromotionsPage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "联系我们"
+			}
+		},
+		{
+			"path" : "pages/BestSellingPage/BestSellingPage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "特价促销"
+			}
+		},
+		{
+			"path" : "pages/aboutPage/aboutPage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "关于我们"
+			}
+		},
+		{
+			"path" : "pages/bookInfo/bookInfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "书籍详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
